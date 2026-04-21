@@ -318,7 +318,7 @@ const products = [
     name: "Gudang Garam Surya 16",
     price: 12.99,
     oldPrice: 15.99,
-    image: "images/rokok-collection.jpg",
+    image: "images/gudang-garam.png",
     rating: 5,
     reviews: 156,
     category: "rokok",
@@ -341,7 +341,7 @@ const products = [
     name: "Sampoerna Avolution",
     price: 14.99,
     oldPrice: 18.99,
-    image: "images/rokok-collection.jpg",
+    image: "images/sampoerna.png",
     rating: 5,
     reviews: 134,
     category: "rokok",
@@ -364,7 +364,7 @@ const products = [
     name: "LA Lights",
     price: 11.99,
     oldPrice: 14.99,
-    image: "images/rokok-collection.jpg",
+    image: "images/la-lights.png",
     rating: 4,
     reviews: 198,
     category: "rokok",
@@ -387,7 +387,7 @@ const products = [
     name: "Esse Berry Pop",
     price: 13.99,
     oldPrice: 16.99,
-    image: "images/rokok-collection.jpg",
+    image: "images/esse-berry.png",
     rating: 4,
     reviews: 112,
     category: "rokok",
@@ -410,7 +410,7 @@ const products = [
     name: "Dunhill Filter 16",
     price: 13.49,
     oldPrice: 16.49,
-    image: "images/rokok-collection.jpg",
+    image: "images/dunhill.png",
     rating: 4,
     reviews: 95,
     category: "rokok",
@@ -434,7 +434,7 @@ const products = [
     name: "Sukro Kacang Original",
     price: 3.99,
     oldPrice: 5.49,
-    image: "images/snack-shelf.png",
+    image: "images/sukro.png",
     rating: 5,
     reviews: 231,
     category: "snack",
@@ -457,7 +457,7 @@ const products = [
     name: "Kusuka Keripik Singkong",
     price: 3.49,
     oldPrice: 4.99,
-    image: "images/snack-shelf.png",
+    image: "images/kusuka.png",
     rating: 4,
     reviews: 167,
     category: "snack",
@@ -480,7 +480,7 @@ const products = [
     name: "Tic Tac Snack Mix",
     price: 2.99,
     oldPrice: 3.99,
-    image: "images/pantry-snacks.jpg",
+    image: "images/tictac.png",
     rating: 4,
     reviews: 189,
     category: "snack",
@@ -503,7 +503,7 @@ const products = [
     name: "Super Bubur Instan",
     price: 1.99,
     oldPrice: 2.99,
-    image: "images/snack-shelf.png",
+    image: "images/super-bubur.png",
     rating: 4,
     reviews: 143,
     category: "makanan",
@@ -526,7 +526,7 @@ const products = [
     name: "Yupi Gummy Candy",
     price: 2.49,
     oldPrice: 3.49,
-    image: "images/pantry-snacks.jpg",
+    image: "images/yupi.png",
     rating: 4,
     reviews: 76,
     category: "snack",
@@ -550,7 +550,7 @@ const products = [
     name: "Antangin JRG Herbal",
     price: 4.99,
     oldPrice: 6.99,
-    image: "images/pantry-obat.jpg",
+    image: "images/antangin.png",
     rating: 5,
     reviews: 245,
     category: "obat",
@@ -573,7 +573,7 @@ const products = [
     name: "FreshCare Roll On",
     price: 3.99,
     oldPrice: 5.49,
-    image: "images/pantry-obat.jpg",
+    image: "images/freshcare.png",
     rating: 5,
     reviews: 312,
     category: "obat",
@@ -596,7 +596,7 @@ const products = [
     name: "Tolak Angin Herbal",
     price: 5.99,
     oldPrice: 7.99,
-    image: "images/pantry-obat.jpg",
+    image: "images/tolak-angin.png",
     rating: 5,
     reviews: 278,
     category: "obat",
@@ -619,7 +619,7 @@ const products = [
     name: "Komix Herbal Syrup",
     price: 3.49,
     oldPrice: 4.99,
-    image: "images/pantry-obat.jpg",
+    image: "images/komix.png",
     rating: 4,
     reviews: 156,
     category: "obat",
@@ -642,7 +642,7 @@ const products = [
     name: "Kopiko Coffee Candy",
     price: 2.99,
     oldPrice: 3.99,
-    image: "images/pantry-obat.jpg",
+    image: "images/kopiko.png",
     rating: 5,
     reviews: 345,
     category: "snack",
@@ -666,7 +666,7 @@ const products = [
     name: "Petai Segar (Stink Beans)",
     price: 6.99,
     oldPrice: 9.99,
-    image: "images/sayuran-segar.jpg",
+    image: "images/petai.png",
     rating: 5,
     reviews: 167,
     category: "sayuran",
@@ -689,7 +689,7 @@ const products = [
     name: "Kangkung Segar (Water Spinach)",
     price: 3.99,
     oldPrice: 5.49,
-    image: "images/sayuran-segar.jpg",
+    image: "images/kangkung.png",
     rating: 5,
     reviews: 198,
     category: "sayuran",
@@ -712,7 +712,7 @@ const products = [
     name: "Bayam Segar (Spinach)",
     price: 3.49,
     oldPrice: 4.99,
-    image: "images/sayuran-segar.jpg",
+    image: "images/bayam.png",
     rating: 4,
     reviews: 134,
     category: "sayuran",
@@ -729,6 +729,494 @@ const products = [
     stock: 10,
     bestseller: false,
     discount: 30
+  },
+  // ===== MIE INDOMIE VARIAN =====
+  {
+    id: 32,
+    name: "Indomie Goreng Spesial Plus",
+    price: 1.29,
+    oldPrice: 1.79,
+    image: "images/indomie-goreng-spesial.png",
+    rating: 5,
+    reviews: 432,
+    category: "mie",
+    description: "Indomie Mi Goreng Spesial Plus — upgraded version of the classic with extra seasoning and sambal. Richer, bolder flavour loved by Indomie fans worldwide.",
+    features: [
+      "Extra seasoning & sambal",
+      "Richer flavour than original",
+      "Ready in 3 minutes",
+      "Indonesia's #1 noodle",
+      "Halal certified"
+    ],
+    sizes: ["1 Pack", "5-Pack", "10-Pack"],
+    variants: ["Goreng Spesial Plus"],
+    stock: 50,
+    bestseller: false,
+    discount: 27
+  },
+  {
+    id: 33,
+    name: "Indomie Ayam Spesial",
+    price: 1.19,
+    oldPrice: 1.69,
+    image: "images/indomie-ayam-spesial.png",
+    rating: 5,
+    reviews: 378,
+    category: "mie",
+    description: "Indomie kuah rasa Ayam Spesial — savoury chicken flavour noodle soup with rich broth seasoning. Comfort food at its best.",
+    features: [
+      "Rich chicken broth flavour",
+      "Comforting noodle soup",
+      "Ready in 3 minutes",
+      "Perfect for cold weather",
+      "Halal certified"
+    ],
+    sizes: ["1 Pack", "5-Pack", "10-Pack"],
+    variants: ["Ayam Spesial"],
+    stock: 45,
+    bestseller: false,
+    discount: 29
+  },
+  {
+    id: 34,
+    name: "Indomie Nyemek Yogya Rendang",
+    price: 1.39,
+    oldPrice: 1.89,
+    image: "images/indomie-nyemek.png",
+    rating: 5,
+    reviews: 156,
+    category: "mie",
+    description: "Indomie Nyemek khas Yogya rasa Rendang — unique semi-dry noodles with authentic rendang seasoning. A special regional flavour from Yogyakarta.",
+    features: [
+      "Unique semi-dry style",
+      "Authentic rendang flavour",
+      "Yogyakarta regional special",
+      "Limited edition flavour",
+      "Halal certified"
+    ],
+    sizes: ["1 Pack", "5-Pack"],
+    variants: ["Rendang"],
+    stock: 20,
+    bestseller: false,
+    discount: 26
+  },
+  {
+    id: 35,
+    name: "Indomie Goreng Ayam Geprek",
+    price: 1.29,
+    oldPrice: 1.79,
+    image: "images/indomie-geprek.png",
+    rating: 5,
+    reviews: 289,
+    category: "mie",
+    description: "Indomie Goreng rasa Ayam Geprek — spicy, crispy chicken-inspired flavour. One of the trending new flavours that captures the viral ayam geprek taste.",
+    features: [
+      "Viral ayam geprek flavour",
+      "Spicy & savoury",
+      "Trending new flavour",
+      "Ready in 3 minutes",
+      "Halal certified"
+    ],
+    sizes: ["1 Pack", "5-Pack", "10-Pack"],
+    variants: ["Ayam Geprek"],
+    stock: 35,
+    bestseller: false,
+    discount: 27
+  },
+  {
+    id: 36,
+    name: "Indomie Rendang",
+    price: 1.29,
+    oldPrice: 1.79,
+    image: "images/indomie-rendang-mie.png",
+    rating: 5,
+    reviews: 345,
+    category: "mie",
+    description: "Indomie kuah rasa Rendang — rich and aromatic rendang-flavoured noodle soup. Combines the warmth of noodle soup with the bold taste of rendang.",
+    features: [
+      "Authentic rendang taste",
+      "Rich aromatic broth",
+      "Full-bodied flavour",
+      "Ready in 3 minutes",
+      "Halal certified"
+    ],
+    sizes: ["1 Pack", "5-Pack", "10-Pack"],
+    variants: ["Rendang"],
+    stock: 40,
+    bestseller: false,
+    discount: 27
+  },
+  {
+    id: 37,
+    name: "Indomie Aceh",
+    price: 1.39,
+    oldPrice: 1.89,
+    image: "images/indomie-aceh.png",
+    rating: 5,
+    reviews: 198,
+    category: "mie",
+    description: "Indomie Mi Goreng rasa Aceh — fiery Acehnese-style fried noodles with bold spices. A regional favourite with extra heat and rich flavour.",
+    features: [
+      "Acehnese-style spicy flavour",
+      "Bold & fiery seasoning",
+      "Regional speciality",
+      "Rich in spices",
+      "Halal certified"
+    ],
+    sizes: ["1 Pack", "5-Pack"],
+    variants: ["Aceh"],
+    stock: 25,
+    bestseller: false,
+    discount: 26
+  },
+  {
+    id: 38,
+    name: "Indomie Soto Mie",
+    price: 1.19,
+    oldPrice: 1.69,
+    image: "images/indomie-soto-mie.png",
+    rating: 5,
+    reviews: 267,
+    category: "mie",
+    description: "Indomie kuah rasa Soto — classic Indonesian soto-flavoured noodle soup with turmeric and lemongrass. Warm, comforting, and deeply satisfying.",
+    features: [
+      "Classic soto flavour",
+      "Turmeric & lemongrass broth",
+      "Warm & comforting",
+      "Ready in 3 minutes",
+      "Halal certified"
+    ],
+    sizes: ["1 Pack", "5-Pack", "10-Pack"],
+    variants: ["Soto"],
+    stock: 40,
+    bestseller: false,
+    discount: 29
+  },
+  // ===== SAMBAL & SAUS TAMBAHAN =====
+  {
+    id: 39,
+    name: "Sambal IF Pedas Botol 335ml",
+    price: 4.99,
+    oldPrice: 6.99,
+    image: "images/sambal-if.png",
+    rating: 4,
+    reviews: 134,
+    category: "sambal",
+    description: "Sambal IF extra pedas in a large 335ml bottle — thick, fiery chilli sauce perfect for all Indonesian dishes. Great value family-size bottle.",
+    features: [
+      "Extra pedas/spicy",
+      "Large 335ml bottle",
+      "Thick chilli texture",
+      "Great value family size",
+      "Halal certified"
+    ],
+    sizes: ["335ml"],
+    variants: ["Extra Pedas"],
+    stock: 18,
+    bestseller: false,
+    discount: 28
+  },
+  {
+    id: 40,
+    name: "Bango Kecap Manis Pouch",
+    price: 8.99,
+    oldPrice: 11.99,
+    image: "images/bango-kecap.png",
+    rating: 5,
+    reviews: 223,
+    category: "saus",
+    description: "Bango Kecap Manis premium sweet soy sauce in value pouch — Indonesia's most trusted kecap brand. Rich, authentic flavour from natural black soybeans.",
+    features: [
+      "Indonesia's #1 kecap brand",
+      "Natural black soybeans",
+      "Rich authentic flavour",
+      "Value pouch 6x1.5kg",
+      "Essential for Indonesian cooking"
+    ],
+    sizes: ["Pouch 1.5kg", "6-Pack Pouch"],
+    variants: ["Kecap Manis"],
+    stock: 12,
+    bestseller: false,
+    discount: 25
+  },
+  // ===== MINUMAN TAMBAHAN =====
+  {
+    id: 41,
+    name: "Teh Sosro Kotak 250ml",
+    price: 1.49,
+    oldPrice: 1.99,
+    image: "images/teh-sosro.png",
+    rating: 5,
+    reviews: 456,
+    category: "minuman",
+    description: "Teh Botol Sosro in tetra pack — Indonesia's iconic jasmine tea drink. Refreshing, lightly sweetened, and the perfect companion to any Indonesian meal.",
+    features: [
+      "Indonesia's #1 tea brand",
+      "Refreshing jasmine tea",
+      "Lightly sweetened",
+      "Convenient tetra pack",
+      "Halal certified"
+    ],
+    sizes: ["250ml", "6-Pack", "12-Pack"],
+    variants: ["Original", "Less Sugar"],
+    stock: 50,
+    bestseller: false,
+    discount: 25
+  },
+  // ===== SNACK TAMBAHAN =====
+  {
+    id: 42,
+    name: "Roma Kelapa 300g",
+    price: 3.49,
+    oldPrice: 4.49,
+    image: "images/roma-kelapa.png",
+    rating: 4,
+    reviews: 187,
+    category: "snack",
+    description: "Roma Kelapa biscuits — classic Indonesian coconut biscuits with a sweet, crumbly texture. A nostalgic snack loved across generations.",
+    features: [
+      "Classic coconut biscuit",
+      "Sweet & crumbly",
+      "Nostalgic Indonesian snack",
+      "Great with tea or coffee",
+      "300g family pack"
+    ],
+    sizes: ["300g"],
+    variants: ["Kelapa"],
+    stock: 25,
+    bestseller: false,
+    discount: 22
+  },
+  {
+    id: 43,
+    name: "Khong Guan Assorted Red 1600g",
+    price: 16.99,
+    oldPrice: 21.99,
+    image: "images/khong-guan.png",
+    rating: 5,
+    reviews: 312,
+    category: "snack",
+    description: "Khong Guan Assorted Biscuits kaleng merah — iconic Indonesian biscuit tin with assorted flavours. A must-have for gatherings, Lebaran, and family occasions.",
+    features: [
+      "Iconic red biscuit tin",
+      "Assorted biscuit flavours",
+      "1.6kg large family pack",
+      "Perfect for Lebaran/gatherings",
+      "Indonesia's legendary biscuit"
+    ],
+    sizes: ["1600g"],
+    variants: ["Assorted Red"],
+    stock: 10,
+    bestseller: false,
+    discount: 22
+  },
+  {
+    id: 44,
+    name: "Beng-Beng 17x22g",
+    price: 5.99,
+    oldPrice: 7.99,
+    image: "images/beng-beng.png",
+    rating: 5,
+    reviews: 267,
+    category: "snack",
+    description: "Beng-Beng wafer chocolate bar — crispy wafer layered with caramel, rice crisps, and coated in chocolate. Indonesia's favourite chocolate snack, 17-pack value box.",
+    features: [
+      "Crispy wafer & caramel",
+      "Chocolate coated",
+      "17 bars per box",
+      "Perfect snack or treat",
+      "Halal certified"
+    ],
+    sizes: ["17x22g Box"],
+    variants: ["Original", "Maxx"],
+    stock: 22,
+    bestseller: false,
+    discount: 25
+  },
+  {
+    id: 45,
+    name: "Oreo Lup",
+    price: 2.99,
+    oldPrice: 3.99,
+    image: "images/oreo-lup.png",
+    rating: 4,
+    reviews: 145,
+    category: "snack",
+    description: "Oreo Lup — Indonesian twist on the classic Oreo. Chocolate sandwich cookie with a creamy filling. Available in unique Indonesian-exclusive flavours.",
+    features: [
+      "Indonesian-exclusive flavour",
+      "Chocolate sandwich cookie",
+      "Creamy filling",
+      "Great for snacking",
+      "Fun packaging"
+    ],
+    sizes: ["1 Pack", "6-Pack"],
+    variants: ["Original", "Chocolate"],
+    stock: 30,
+    bestseller: false,
+    discount: 25
+  },
+  // ===== MIE SEDAAP VARIAN =====
+  {
+    id: 46,
+    name: "Sedaap Mie Ayam Bawang 71g",
+    price: 0.99,
+    oldPrice: 1.49,
+    image: "images/sedaap-ayam-bawang.png",
+    rating: 4,
+    reviews: 198,
+    category: "mie",
+    description: "Mie Sedaap kuah rasa Ayam Bawang — hearty chicken and onion flavoured instant noodle soup. A strong competitor to Indomie with its own loyal fanbase.",
+    features: [
+      "Rich chicken & onion broth",
+      "Krispi (crispy bits) included",
+      "Hearty noodle soup",
+      "Ready in 3 minutes",
+      "Halal certified"
+    ],
+    sizes: ["1 Pack", "5-Pack", "40-Pack (Box)"],
+    variants: ["Ayam Bawang"],
+    stock: 40,
+    bestseller: false,
+    discount: 33
+  },
+  {
+    id: 47,
+    name: "Sedaap Mie Ayam Spesial 69g",
+    price: 0.99,
+    oldPrice: 1.49,
+    image: "images/sedaap-ayam-spesial.png",
+    rating: 4,
+    reviews: 167,
+    category: "mie",
+    description: "Mie Sedaap kuah rasa Ayam Spesial — rich and savoury chicken noodle soup with extra seasoning. Comes with signature krispi bits for extra crunch.",
+    features: [
+      "Special chicken seasoning",
+      "Krispi (crunchy bits)",
+      "Rich savoury broth",
+      "Ready in 3 minutes",
+      "Halal certified"
+    ],
+    sizes: ["1 Pack", "5-Pack", "40-Pack (Box)"],
+    variants: ["Ayam Spesial"],
+    stock: 38,
+    bestseller: false,
+    discount: 33
+  },
+  {
+    id: 48,
+    name: "Sedaap Mie Bakso Spesial 77g",
+    price: 0.99,
+    oldPrice: 1.49,
+    image: "images/sedaap-bakso.png",
+    rating: 4,
+    reviews: 145,
+    category: "mie",
+    description: "Mie Sedaap kuah rasa Bakso Spesial — meatball-flavoured instant noodle soup with rich, beefy broth. A warming bowl of comfort food.",
+    features: [
+      "Rich meatball soup flavour",
+      "Beefy savoury broth",
+      "Krispi bits included",
+      "Ready in 3 minutes",
+      "Halal certified"
+    ],
+    sizes: ["1 Pack", "5-Pack", "40-Pack (Box)"],
+    variants: ["Bakso Spesial"],
+    stock: 35,
+    bestseller: false,
+    discount: 33
+  },
+  {
+    id: 49,
+    name: "Sedaap Mie Goreng 91g",
+    price: 0.99,
+    oldPrice: 1.49,
+    image: "images/sedaap-goreng.png",
+    rating: 5,
+    reviews: 287,
+    category: "mie",
+    description: "Mie Sedaap Goreng — crispy fried noodles with sweet-savoury seasoning and crunchy krispi bits. A worthy rival to Indomie Goreng with its own unique taste.",
+    features: [
+      "Sweet-savoury fried noodles",
+      "Signature krispi bits",
+      "Bold satisfying flavour",
+      "Ready in 3 minutes",
+      "Halal certified"
+    ],
+    sizes: ["1 Pack", "5-Pack", "40-Pack (Box)"],
+    variants: ["Goreng"],
+    stock: 45,
+    bestseller: false,
+    discount: 33
+  },
+  {
+    id: 50,
+    name: "Sedaap Mie Kari Spesial 75g",
+    price: 0.99,
+    oldPrice: 1.49,
+    image: "images/sedaap-kari.png",
+    rating: 4,
+    reviews: 134,
+    category: "mie",
+    description: "Mie Sedaap kuah rasa Kari Kental Spesial — thick, rich curry-flavoured noodle soup. Creamy and aromatic with deep curry spice flavour.",
+    features: [
+      "Rich & thick curry broth",
+      "Creamy aromatic flavour",
+      "Deep curry spice",
+      "Ready in 3 minutes",
+      "Halal certified"
+    ],
+    sizes: ["1 Pack", "5-Pack", "40-Pack (Box)"],
+    variants: ["Kari Kental Spesial"],
+    stock: 30,
+    bestseller: false,
+    discount: 33
+  },
+  {
+    id: 51,
+    name: "Sedaap Mie Soto 76g",
+    price: 0.99,
+    oldPrice: 1.49,
+    image: "images/sedaap-soto.png",
+    rating: 4,
+    reviews: 156,
+    category: "mie",
+    description: "Mie Sedaap kuah rasa Soto — traditional soto-flavoured noodle soup with turmeric and aromatic herbs. A comforting bowl with Indonesian home-cooking taste.",
+    features: [
+      "Classic soto flavour",
+      "Turmeric & herb broth",
+      "Comforting home-style taste",
+      "Ready in 3 minutes",
+      "Halal certified"
+    ],
+    sizes: ["1 Pack", "5-Pack", "40-Pack (Box)"],
+    variants: ["Soto"],
+    stock: 35,
+    bestseller: false,
+    discount: 33
+  },
+  {
+    id: 52,
+    name: "Sedaap Mie Soto Madura 82g",
+    price: 1.09,
+    oldPrice: 1.59,
+    image: "images/sedaap-soto-madura.png",
+    rating: 4,
+    reviews: 123,
+    category: "mie",
+    description: "Mie Sedaap kuah rasa Soto Madura — Madurese-style soto noodle soup with distinctive aromatic broth. Rich, hearty, and full of East Javanese flavour.",
+    features: [
+      "Madurese-style soto",
+      "Distinctive aromatic broth",
+      "Hearty East Javanese flavour",
+      "Ready in 3 minutes",
+      "Halal certified"
+    ],
+    sizes: ["1 Pack", "5-Pack", "40-Pack (Box)"],
+    variants: ["Soto Madura"],
+    stock: 28,
+    bestseller: false,
+    discount: 31
   }
 ];
 
@@ -970,14 +1458,21 @@ function renderBestSellers() {
   const container = document.getElementById('bestsellers-grid');
   if (!container) return;
 
-  const bestSellers = products.filter(p => p.bestseller);
+  // Pick 8 random products from top 20 most-reviewed (changes every refresh)
+  const sorted = [...products].sort((a, b) => b.reviews - a.reviews);
+  const topPool = sorted.slice(0, 20);
+  for (let i = topPool.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [topPool[i], topPool[j]] = [topPool[j], topPool[i]];
+  }
+  const bestSellers = topPool.slice(0, 8);
 
   container.innerHTML = bestSellers.map((product, index) => `
     <div class="product-card reveal reveal-delay-${index + 1}">
       <div class="product-img-wrap relative">
         ${product.discount ? `<span class="discount-badge">-${product.discount}%</span>` : ''}
         <span class="bestseller-badge">Best Seller</span>
-        <img src="${product.image}" alt="${product.name}" class="w-full aspect-square object-cover" loading="lazy">
+        <img src="${product.image}" alt="${product.name}" class="w-full aspect-square object-cover" loading="lazy" onerror="this.src='images/placeholder.png'">
         <div class="overlay-actions">
           <button onclick="openModal(${product.id})" class="btn-primary text-sm !py-2 !px-4">
             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/></svg>
@@ -998,7 +1493,7 @@ function renderBestSellers() {
         </div>
         ${product.stock <= 10 ? `<p class="stock-warning mb-3">Only ${product.stock} left in stock!</p>` : ''}
         <div class="flex gap-2">
-          <button onclick="addToCart(${product.id})" class="btn-add-cart flex-1 justify-center">
+          <button onclick="openModal(${product.id})" class="btn-add-cart flex-1 justify-center">
             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 100 4 2 2 0 000-4z"/></svg>
             Add to Cart
           </button>
@@ -1037,13 +1532,10 @@ function renderCatalogue() {
       <div class="product-img-wrap relative">
         ${product.discount ? `<span class="discount-badge">-${product.discount}%</span>` : ''}
         ${product.bestseller ? `<span class="bestseller-badge">Popular</span>` : ''}
-        <img src="${product.image}" alt="${product.name}" class="w-full aspect-square object-cover" loading="lazy">
+        <img src="${product.image}" alt="${product.name}" class="w-full aspect-square object-cover" loading="lazy" onerror="this.src='images/placeholder.png'">
         <div class="overlay-actions">
           <button onclick="openModal(${product.id})" class="bg-white text-gray-900 px-4 py-2 rounded-lg font-semibold text-sm hover:bg-gray-100 transition-colors">
             Quick View
-          </button>
-          <button onclick="addToCart(${product.id})" class="bg-gray-900 text-white px-4 py-2 rounded-lg font-semibold text-sm hover:bg-gray-700 transition-colors">
-            + Add to Cart
           </button>
         </div>
       </div>
@@ -1058,7 +1550,7 @@ function renderCatalogue() {
           <span class="text-xs text-gray-400 line-through">${formatPrice(product.oldPrice)}</span>
         </div>
         ${product.stock <= 15 ? `<p class="stock-warning mb-2 text-xs">Only ${product.stock} left!</p>` : ''}
-        <button onclick="addToCart(${product.id})" class="btn-add-cart w-full justify-center text-xs !py-2">
+        <button onclick="openModal(${product.id})" class="btn-add-cart w-full justify-center text-xs !py-2">
           <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 100 4 2 2 0 000-4z"/></svg>
           Add to Cart
         </button>
@@ -1082,7 +1574,7 @@ function openModal(productId) {
     <div class="grid grid-cols-1 md:grid-cols-2 gap-0">
       <!-- Product Image -->
       <div class="bg-gray-50 p-8 md:p-12 flex items-center justify-center">
-        <img src="${product.image}" alt="${product.name}" class="w-full max-w-sm rounded-xl" id="modal-product-image">
+        <img src="${product.image}" alt="${product.name}" class="w-full max-w-sm rounded-xl" id="modal-product-image" onerror="this.src='images/placeholder.png'">
       </div>
 
       <!-- Product Details -->

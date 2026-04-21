@@ -795,6 +795,28 @@ body {
   padding-left: 8px;
 }
 
+/* Mobile Category Buttons */
+.mobile-cat-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 6px 14px;
+  border-radius: 50px;
+  background: var(--grey-100);
+  color: var(--grey-600);
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: var(--transition);
+  white-space: nowrap;
+}
+
+.mobile-cat-btn:hover,
+.mobile-cat-btn:active {
+  background: var(--black);
+  color: var(--white);
+}
+
 /* Hamburger */
 .hamburger {
   width: 28px;
@@ -1275,5 +1297,101 @@ body {
   .category-tab {
     padding: 7px 16px;
     font-size: 13px;
+  }
+}
+
+/* ============ Best Sellers Carousel ============ */
+.bestseller-carousel-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.bestseller-carousel {
+  display: flex;
+  gap: 20px;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  flex: 1;
+}
+
+.bestseller-carousel .product-card {
+  min-width: calc(25% - 15px);
+  flex-shrink: 0;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+@media (max-width: 1024px) {
+  .bestseller-carousel .product-card {
+    min-width: calc(50% - 10px);
+  }
+}
+
+@media (max-width: 640px) {
+  .bestseller-carousel .product-card {
+    min-width: calc(100% - 0px);
+  }
+}
+
+.carousel-arrow {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--white);
+  border: 2px solid var(--grey-200);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition);
+  flex-shrink: 0;
+  color: var(--grey-600);
+  z-index: 5;
+}
+
+.carousel-arrow:hover {
+  background: var(--black);
+  border-color: var(--black);
+  color: var(--white);
+  box-shadow: var(--shadow-md);
+}
+
+.carousel-dots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 24px;
+}
+
+.carousel-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--grey-300);
+  border: none;
+  cursor: pointer;
+  transition: var(--transition);
+  padding: 0;
+}
+
+.carousel-dot.active {
+  background: var(--black);
+  width: 28px;
+  border-radius: 5px;
+}
+
+.carousel-dot:hover {
+  background: var(--grey-500);
+}
+
+@media (max-width: 640px) {
+  .carousel-arrow {
+    width: 36px;
+    height: 36px;
+  }
+  
+  .bestseller-carousel-wrap {
+    gap: 6px;
   }
 }
